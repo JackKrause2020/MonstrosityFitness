@@ -1,0 +1,22 @@
+
+body {
+    color: whitesmoke;
+    background-color: darkgray;
+}
+h1.title {
+    font-size: 5em;
+    text-align: left;
+    color: darkblue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+h2.title {
+    font-size: 3em;
+    text-align: left;
+    color: whitesmoke;
+    font-family: serif;
+}
+h2.center {
+    font-size: 3em;
+    color: darkblue;
+    text-align: center;
+}
