@@ -2,6 +2,7 @@
 body {
     color: whitesmoke;
     background-color: darkgray;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
 }
 h1.title {
     font-size: 5em;
@@ -19,4 +20,30 @@ h2.center {
     font-size: 3em;
     color: darkblue;
     text-align: center;
+}
+button{
+    border-radius: 0.2em;
+    font-weight: bold;
+    font-family: serif;
+    font-size: 2em;
+}
+button.button1 {
+    background-color:whitesmoke;
+    color:darkblue;
+    border: 0.09em solid red;
+    transition-duration:0.4s
+}
+button:hover.button1{
+    background-color:darkblue
+    color:whitesmoke;
+}
+button.button2{
+    background-color: whitesmoke;
+    color:darkblue;
+    border: 0.09em solid red;
+}
+button.button3{
+    background-color:whitesmoke;
+    color: darkblue;
+    border: 0.09em solid red;
 }
